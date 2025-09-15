@@ -2,7 +2,7 @@
 
 ## Intro
 
-This repository offers pre-configured ZMK firmware designed for [Wireless Charybdis keyboards](https://github.com/280Zo/charybdis-wireless-mini-3x6-build-guide?tab=readme-ov-file). It supports both Bluetooth/USB and Dongle configurations and uses the latest input listener and processors to act as a bridge between the trackball and the rest of the system.
+This repository offers pre-configured ZMK firmware designed for the Wireless Charybdis **4×6** keyboard. It supports both Bluetooth/USB and Dongle configurations and uses the latest input listener and processors to act as a bridge between the trackball and the rest of the system.
 
 If you want to customize things the repo is set up to build through GitHub Actions (just clone and run it), or you can use the
 containerized build script that will build all firmwares locally with a single command.
@@ -55,24 +55,24 @@ To see all the layers check out the [full render](keymap-drawer/qwerty.svg).
 🔗 Combos
 | Trigger Keys              | Result                                 |
 | ------------------------- | -------------------------------------- |
-| `K17 + K18`               | **Caps Word** (one-shot words in CAPS) |
-| `K25 + K26`               | **Left Click**                         |
-| `K26 + K27`               | **Middle Click**                       |
-| `K27 + K28`               | **Right Click**                        |
-| `K13 + K22`               | Toggle **MOUSE** layer                 |
-| `K38 + K39` (thumb cluster)| Layer-swap **BASE ⇄ EXTRAS**           |
+| `K29 + K30`               | **Caps Word** (one-shot words in CAPS) |
+| `K37 + K38`               | **Left Click**                         |
+| `K38 + K39`               | **Middle Click**                       |
+| `K39 + K40`               | **Right Click**                        |
+| `K25 + K34`               | Toggle **MOUSE** layer                 |
+| `K50 + K53` (thumb cluster)| Layer-swap **BASE ⇄ EXTRAS**           |
 
 
 ⚙️ Other Highlights
 - **Timeless home row mods:** Based on [urob's](https://github.com/urob/zmk-config#timeless-homerow-mods) work and configured on the BASE layer with balanced flavor on both halves (280 ms tapping-term, and quick-tap with prior-idle tuning).
-- **Thumb-scroll mode:** Hold the left-most thumb button (K36) while moving the trackball to turn motion into scroll.
-- **Precision cursor mode:** Double-tap, then hold K36 to drop the pointer speed, release to return to normal speed.
-- **Mouse-Click + Symbol-Layer - K37**
+- **Thumb-scroll mode:** Hold the left-most thumb button (K48) while moving the trackball to turn motion into scroll.
+- **Precision cursor mode:** Double-tap, then hold K48 to drop the pointer speed, release to return to normal speed.
+- **Mouse-Click + Symbol-Layer - K49**
   - Tap: Left mouse click
   - Tap & Hold: Layer 3 (symbols) while the key is held
   - Double-Tap & Hold: holds the left mouse button
   - Tripple-Tap: Double mouse click
-- **Backspace + Number-Layer - K38**
+- **Backspace + Number-Layer - K50**
   - Tap: Backspace
   - Hold: Layer 1 (numbers) while the key is held
   - Double-Tap & Hold: Keeps Backspace held

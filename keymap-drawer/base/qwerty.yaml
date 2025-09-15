@@ -1,6 +1,18 @@
 layout: {zmk_keyboard: qwerty}
 layers:
   BASE:
+  - ESC
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 0
+  - -
   - SEARCH
   - Q
   - W
@@ -40,9 +52,24 @@ layers:
   - ESC SCRL SLOW
   - SYM LCLK
   - BS NUM
+  - BACK
+  - FWD
   - ENTER
   - SPACE NAV
+  - R CLK
   NUM:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -61,7 +88,7 @@ layers:
   - ''
   - BACK SPACE
   - ''
-  - '-'
+  - -
   - {t: '4', h: F4}
   - {t: '5', h: F5}
   - {t: '6', h: F6}
@@ -73,18 +100,33 @@ layers:
   - ''
   - ''
   - ''
-  - '='
+  - ''
+  - =
   - {t: '1', h: F1}
   - {t: '2', h: F2}
   - {t: '3', h: F3}
   - {t: ., h: F12}
-  - /
   - ''
   - ''
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - 0
   - SPACE
+  - {t: ▽, type: trans}
   NAV:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - WHEEL L
   - WHEEL D
@@ -125,19 +167,34 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ^
-  - '~'
+  - ~
   - ''
   - +
-  - '&'
-  - '['
-  - ']'
-  - '%'
+  - &
+  - [
+  - ]
+  - %
   - \
   - ''
   - ''
@@ -145,31 +202,46 @@ layers:
   - )
   - BACK SPACE
   - _
-  - '-'
-  - '`'
-  - '{'
-  - '}'
-  - '*'
-  - '|'
+  - -
+  - `
+  - {
+  - }
+  - *
+  - |
   - ''
   - ''
   - ''
-  - '#'
+  - #
   - ~/
   - $
-  - '='
-  - '```'
+  - =
+  - ```
   - <
-  - '>'
-  - '@'
+  - >
+  - @
   - /
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   GAME:
-  - '1'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 1
   - TAB
   - Q
   - W
@@ -181,7 +253,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - '2'
+  - 2
   - LCTRL
   - A
   - S
@@ -193,7 +265,7 @@ layers:
   - ''
   - ''
   - ''
-  - '3'
+  - 3
   - LSHFT
   - Y
   - X
@@ -210,7 +282,22 @@ layers:
   - LEFT ALT
   - ''
   - ''
+  - ''
+  - ''
+  - ''
   EXTRAS:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ZMK Studio
   - SHRUG
   - LGTM
@@ -252,7 +339,25 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
   SLOW:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -336,15 +441,30 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [17, 18]
+- p: [29, 30]
   k: CAPS WORD
   l: [BASE]
-- p: [38, 39]
+- p: [50, 53]
   k: L_BASE L_EXTRA
-- p: [25, 26]
+- p: [37, 38]
   k: L CLK
-- p: [26, 27]
+- p: [38, 39]
   k: Mid CLK
-- p: [27, 28]
+- p: [39, 40]
   k: R CLK
